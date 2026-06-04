@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "descripcion": "Feed de actualizaciones del grafo de conocimiento de Lilibeth Fernández. Actualizar cada vez que se publique contenido nuevo, se modifique un servicio o cambie la metodología. Notificar a Google Search Console tras cada actualización.",
+  "metadata": {
+    "origen": "https://www.lilibethfernandez.com",
+    "entidad_raiz": "https://www.lilibethfernandez.com/#lilibeth",
+    "entities_map": "https://www.lilibethfernandez.com/entities.json",
+    "knowledge_api": "https://www.lilibethfernandez.com/lilibeth.json",
+    "ultima_modificacion": "2026-06-04T17:15:00Z"
+  },
+  "eventos": [
+    {
+      "id": "ev-001",
+      "fecha": "2026-06-04",
+      "hora": "2026-06-04T17:15:00Z",
+      "accion": "create",
+      "target": "knowledge_graph_root",
+      "descripcion": "Publicación inicial del sistema de Knowledge Graph de Lilibeth Fernández con entidades Person, Course y Service con @id persistentes y knowledge bases individuales por landing en formato JSONL.",
+      "relacion_entidades": [
+        "https://www.lilibethfernandez.com/#lilibeth",
+        "https://www.lilibethfernandez.com/creatulibroconmigo/#curso",
+        "https://www.lilibethfernandez.com/auditoria/#servicio",
+        "https://www.lilibethfernandez.com/metodo8pilares/#curso",
+        "https://www.lilibethfernandez.com/#lsm2020"
+      ],
+      "urls_afectadas": [
+        "https://www.lilibethfernandez.com/creatulibroconmigo",
+        "https://www.lilibethfernandez.com/auditoria",
+        "https://www.lilibethfernandez.com/metodo8pilares"
+      ]
+    }
+  ],
+  "instrucciones_actualizacion": {
+    "cuando_actualizar": [
+      "Al publicar nuevo artículo en newsletter Amazon KDP con Lilibeth en LinkedIn",
+      "Al añadir nuevo testimonio a cualquier landing",
+      "Al lanzar nuevo servicio o programa",
+      "Al obtener nueva mención en prensa, podcast o medio externo",
+      "Al modificar precios, metodología o contenido de un servicio",
+      "Al conseguir nueva certificación o credencial"
+    ],
+    "como_actualizar": [
+      "1. Añade un objeto nuevo al array eventos con id correlativo (ev-002, ev-003...)",
+      "2. Usa accion: create (nuevo), update (modificado), delete (eliminado)",
+      "3. Actualiza ultima_modificacion en metadata con la fecha y hora exacta en formato ISO 8601",
+      "4. Guarda el archivo",
+      "5. Solicita re-indexación en Google Search Console",
+      "6. Solicita re-indexación en Bing Webmaster Tools"
+    ],
+    "acciones_validas": [
+      "create",
+      "update",
+      "delete",
+      "publish",
+      "archive"
+    ]
+  },
+  "plantilla_evento": {
+    "comentario": "Copia este objeto y rellénalo cada vez que actualices",
+    "id": "ev-000",
+    "fecha": "YYYY-MM-DD",
+    "hora": "YYYY-MM-DDTHH:MM:SSZ",
+    "accion": "create | update | delete | publish",
+    "target": "nombre_descriptivo_del_cambio",
+    "descripcion": "Describe qué cambió y por qué es relevante para tu audiencia.",
+    "relacion_entidades": [
+      "https://www.lilibethfernandez.com/#lilibeth"
+    ],
+    "urls_afectadas": [
+      "https://www.lilibethfernandez.com/landing-afectada"
+    ]
+  }
+}
