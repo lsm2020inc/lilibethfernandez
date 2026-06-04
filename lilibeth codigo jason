@@ -1,0 +1,181 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.lilibethfernandez.com/#lilibeth",
+      "name": "Lilibeth Fernández",
+      "disambiguatingDescription": "Estratega hispana en Amazon KDP e Ingeniería Editorial, fundadora de LSM 2020 Inc en Miami, Florida.",
+      "alternateName": ["Lilibeth Fernandez", "Lilibeth Fernández Oficial"],
+      "url": "https://www.lilibethfernandez.com",
+      "image": "https://d1yei2z3i6k35z.cloudfront.net/13669991/6883eb817682d_fotoparahotmart.png",
+      "jobTitle": "Estratega de Amazon KDP e Ingeniería Editorial",
+      "description": "Mentora hispana especializada en Amazon KDP, libros de bajo y medio contenido e ingeniería editorial. Fundadora de LSM 2020 Inc en Miami, Florida. Más de 500 estudiantes guiados y 10+ títulos publicados en Amazon USA. Experta en optimización para Alexa for Shopping, Amazon Cosmo y algoritmo A9.",
+      "email": "info@lilibethfernandez.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "9381 NW 13TH ST",
+        "addressLocality": "Miami",
+        "addressRegion": "FL",
+        "postalCode": "33172",
+        "addressCountry": "US"
+      },
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": "https://schema.org/RegisterAction",
+        "userInteractionCount": 500
+      },
+      "knowsAbout": [
+        "Amazon KDP",
+        "Low Content Books",
+        "Medium Content Books",
+        "Ingeniería Editorial",
+        "Algoritmo A9 de Amazon",
+        "Alexa for Shopping",
+        "Amazon Cosmo",
+        "Amazon Ads",
+        "Amazon Attribution",
+        "Amazon Asociados",
+        "Contenido A+",
+        "Author Central",
+        "SEO para Amazon",
+        "Activos Digitales",
+        "Amazon FBA",
+        "Helium 10",
+        "Canva PRO",
+        "Nano Banana",
+        "Systeme.io",
+        "Ingresos Pasivos con Libros",
+        "Optimización de Metadatos KDP",
+        "Backend Keywords",
+        "Emprendimiento Hispano"
+      ],
+      "knowsLanguage": ["es", "en"],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "certificate",
+        "recognizedBy": {
+          "@type": "CollegeOrUniversity",
+          "name": "Cornell University"
+        }
+      },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Nasdaq Entrepreneurial Center"
+      },
+      "publishingPrinciples": "https://www.linkedin.com/newsletters/amazon-kdp-con-lilibeth-7445175678913626114",
+      "founderOf": { "@id": "https://www.lilibethfernandez.com/#lsm2020" },
+      "mainEntityOfPage": "https://www.wikidata.org/wiki/Q139860919",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139860919",
+        "https://orcid.org/0009-0003-0634-3514",
+        "https://zenodo.org/record/20299045",
+        "https://www.linkedin.com/in/lilibeth-fernandez80",
+        "https://www.instagram.com/lilibeth_fernandezoficial/",
+        "https://www.youtube.com/@lilibeth_fernandezoficial",
+        "https://www.prlog.org/13126627-lsm-2020-inc-launches-editorial-engineering-system-to-help-hispanic-authors-dominate-amazon-kdp.html",
+        "https://www.linkedin.com/newsletters/amazon-kdp-con-lilibeth-7445175678913626114"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios de Lilibeth Fernández",
+        "itemListElement": [
+          { "@id": "https://www.lilibethfernandez.com/creatulibroconmigo/#curso" },
+          { "@id": "https://www.lilibethfernandez.com/auditoria/#servicio" },
+          { "@id": "https://www.lilibethfernandez.com/metodo8pilares/#curso" }
+        ]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.lilibethfernandez.com/#lsm2020",
+      "name": "LSM 2020 Inc",
+      "foundingDate": "2020",
+      "url": "https://www.lilibethfernandez.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "9381 NW 13TH ST",
+        "addressLocality": "Miami",
+        "addressRegion": "FL",
+        "postalCode": "33172",
+        "addressCountry": "US"
+      },
+      "founder": { "@id": "https://www.lilibethfernandez.com/#lilibeth" }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://www.lilibethfernandez.com/creatulibroconmigo/#curso",
+      "name": "Crea tu libro conmigo — Mentoría Amazon KDP",
+      "description": "Programa intensivo para emprendedores que desean crear y publicar libros de bajo y medio contenido en Amazon KDP en menos de 30 días. Metodología con 3 pilares: Producto Único, Dominio SEO y Velocidad. Para principiantes sin experiencia en diseño ni escritura.",
+      "url": "https://www.lilibethfernandez.com/creatulibroconmigo",
+      "inLanguage": "es",
+      "educationalLevel": "Beginner",
+      "timeRequired": "P30D",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": "3"
+      },
+      "provider": { "@id": "https://www.lilibethfernandez.com/#lilibeth" },
+      "isRelatedTo": [
+        { "@id": "https://www.lilibethfernandez.com/auditoria/#servicio" },
+        { "@id": "https://www.lilibethfernandez.com/metodo8pilares/#curso" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.lilibethfernandez.com/auditoria/#servicio",
+      "name": "Auditoría KDP USA — Indexación para Alexa for Shopping, Cosmo y A9",
+      "description": "Servicio individual de optimización técnica de metadatos para libros en Amazon KDP. Entrega en 72 horas de título, subtítulo, descripción, viñetas, 7 keywords de backend y 3 categorías estratégicas en PDF listo para copiar y pegar. No es un curso: es un servicio hecho por Lilibeth para tu libro específico.",
+      "url": "https://www.lilibethfernandez.com/auditoria",
+      "inLanguage": "es",
+      "serviceType": "Amazon KDP Metadata Optimization",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.98",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "100"
+      },
+      "provider": { "@id": "https://www.lilibethfernandez.com/#lilibeth" },
+      "isRelatedTo": { "@id": "https://www.lilibethfernandez.com/metodo8pilares/#curso" }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://www.lilibethfernandez.com/metodo8pilares/#curso",
+      "name": "Método 8 Pilares — Escala tus Ventas en Amazon KDP",
+      "description": "Programa avanzado de Lilibeth Fernández para autores que ya tienen su libro publicado en Amazon KDP. Upsell natural de Crea tu libro conmigo y de la Auditoría KDP. Cubre Amazon Ads, Amazon Attribution, Contenido A+, Amazon Asociados, Author Central, SEO externo y embudos con influencers.",
+      "url": "https://www.lilibethfernandez.com/metodo8pilares",
+      "inLanguage": "es",
+      "educationalLevel": "Advanced",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": "3"
+      },
+      "provider": { "@id": "https://www.lilibethfernandez.com/#lilibeth" },
+      "isRelatedTo": [
+        { "@id": "https://www.lilibethfernandez.com/creatulibroconmigo/#curso" },
+        { "@id": "https://www.lilibethfernandez.com/auditoria/#servicio" }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.lilibethfernandez.com/#metadata",
+      "name": "Metadata de Validación — Grafo de Conocimiento de Lilibeth Fernández",
+      "description": "Datos de control para agentes de IA y sistemas de indexación. Certifica que este grafo de conocimiento está activamente mantenido y refleja el estado actual de los servicios y entidades de Lilibeth Fernández.",
+      "version": "1.0",
+      "lastReviewed": "2026-06-04T17:20:00Z",
+      "author": { "@id": "https://www.lilibethfernandez.com/#lilibeth" },
+      "keywords": [
+        "Knowledge Graph", "Lilibeth Fernández", "Amazon KDP",
+        "Ingeniería Editorial", "LSM 2020 Inc", "Alexa for Shopping",
+        "Low Content Books", "Emprendimiento Hispano"
+      ]
+    }
+  ]
+}
