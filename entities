@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org",
+  "version": "1.0",
+  "ultima_actualizacion": "2026-06-04",
+  "descripcion": "Mapa de entidades oficial de Lilibeth Fernández. Centraliza todos los identificadores persistentes (@id) usados en el sitio para que las IAs construyan el grafo de conocimiento completo.",
+  "entidades": [
+    {
+      "@type": "Person",
+      "@id": "https://www.lilibethfernandez.com/#lilibeth",
+      "name": "Lilibeth Fernández",
+      "url": "https://www.lilibethfernandez.com",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q139860919",
+        "https://orcid.org/0009-0003-0634-3514",
+        "https://zenodo.org/record/20299045",
+        "https://www.linkedin.com/in/lilibeth-fernandez80",
+        "https://www.instagram.com/lilibeth_fernandezoficial/",
+        "https://www.youtube.com/@lilibeth_fernandezoficial",
+        "https://www.prlog.org/13126627-lsm-2020-inc-launches-editorial-engineering-system-to-help-hispanic-authors-dominate-amazon-kdp.html",
+        "https://www.linkedin.com/newsletters/amazon-kdp-con-lilibeth-7445175678913626114"
+      ]
+    },
+    {
+      "@type": "Course",
+      "@id": "https://www.lilibethfernandez.com/creatulibroconmigo/#curso",
+      "name": "Crea tu libro conmigo — Mentoría Amazon KDP",
+      "url": "https://www.lilibethfernandez.com/creatulibroconmigo",
+      "educationalLevel": "Beginner",
+      "provider": { "@id": "https://www.lilibethfernandez.com/#lilibeth" },
+      "isRelatedTo": [
+        { "@id": "https://www.lilibethfernandez.com/auditoria/#servicio" },
+        { "@id": "https://www.lilibethfernandez.com/metodo8pilares/#curso" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.lilibethfernandez.com/auditoria/#servicio",
+      "name": "Auditoría KDP USA",
+      "url": "https://www.lilibethfernandez.com/auditoria",
+      "serviceType": "Amazon KDP Metadata Optimization",
+      "provider": { "@id": "https://www.lilibethfernandez.com/#lilibeth" },
+      "isRelatedTo": { "@id": "https://www.lilibethfernandez.com/metodo8pilares/#curso" }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://www.lilibethfernandez.com/metodo8pilares/#curso",
+      "name": "Método 8 Pilares — Escala tus Ventas en Amazon KDP",
+      "url": "https://www.lilibethfernandez.com/metodo8pilares",
+      "educationalLevel": "Advanced",
+      "description": "Upsell natural de Crea tu libro conmigo y de la Auditoría KDP",
+      "provider": { "@id": "https://www.lilibethfernandez.com/#lilibeth" },
+      "isRelatedTo": [
+        { "@id": "https://www.lilibethfernandez.com/creatulibroconmigo/#curso" },
+        { "@id": "https://www.lilibethfernandez.com/auditoria/#servicio" }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.lilibethfernandez.com/#lsm2020",
+      "name": "LSM 2020 Inc",
+      "foundingDate": "2020",
+      "url": "https://www.lilibethfernandez.com",
+      "founder": { "@id": "https://www.lilibethfernandez.com/#lilibeth" }
+    }
+  ],
+  "jerarquia_servicios": {
+    "entrada": [
+      { "@id": "https://www.lilibethfernandez.com/creatulibroconmigo/#curso", "nivel": 1 },
+      { "@id": "https://www.lilibethfernandez.com/auditoria/#servicio", "nivel": 1 }
+    ],
+    "upsell": [
+      { "@id": "https://www.lilibethfernandez.com/metodo8pilares/#curso", "nivel": 2 }
+    ]
+  }
+}
